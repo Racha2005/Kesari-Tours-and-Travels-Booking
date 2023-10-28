@@ -1,0 +1,133 @@
+.body {
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+  padding: 0;  
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #1f03d5, #eec10b,#7807d4, #d16208);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+  box-shadow: 0px 0px 10px rgba(172, 101, 101, 0.1);
+  max-width: 3000px;
+  min-height: 3000px;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 60%;
+}
+
+@media (max-width:768px) {
+  .app {
+    width: 90%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+.app {
+  color: rgb(227, 22, 196);
+  font-size: 40px;
+  width: 100%;
+  max-width: 540px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  text-align: center;
+  border-radius: .5rem .5rem 0 0;
+  background-color: #df75cf;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.app h1 {
+  color: #6412a6;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+.app form {
+  display: flex;
+  width: 100%;
+  background-color: #d40b0bf1;
+}
+
+.app form input {
+  border: none;
+  background-color: #ef8514;
+  font-size: 18px;
+  color: rgb(163, 233, 14);
+  padding: 10px;
+  width: 90%;
+}
+
+.app form button {
+  border: none;
+  color: rgb(156, 113, 60);
+  background-color: #0cd965;
+  color: #ce7924;
+  font-size: 25px;
+  font-weight: 600;
+  height: 42px;
+  width: 10%;
+}
+
+.app ul {
+  list-style: none;
+  color: #bfc51d;
+  padding: 0;
+}
+
+.app ul li {
+  padding: 10px;
+  background-color: #bfc51d;
+  border-bottom: 1px solid #d16208;
+}
+
+.check {
+  width: 0.8em;
+  height: 0.8em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #d16208;
+  border: 1px solid rgb(17, 196, 199);
+}
+
+.check:checked {
+  background-color: #1dd2af;
+}
+
+.task {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.task:focus {
+  outline: none;
+}
+
+.app ul li i {
+  float: right;
+  cursor: pointer;
+}
+
+.app ul li i:hover {
+  color: rgb(255, 82, 82);
+}
+
+.complete {
+  color: rgba(28, 15, 174, 0.8);
+  text-decoration: line-through;
+}
+
+
